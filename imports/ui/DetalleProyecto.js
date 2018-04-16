@@ -4,6 +4,9 @@ import Comentario from "./Comentario.js";
 
 import { withTracker } from "meteor/react-meteor-data";
 
+
+/*Cuando se renderiza esta componente no es posible navegar a otros. Se recomienda incluir algun tipo de ayuda en navegacion 
+eg. ruta o boton de inicio */
 class DetalleProyecto extends Component {
 
 	constructor(props){
